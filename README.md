@@ -1,4 +1,4 @@
-# Perfect Dark NetPlay Steam Controller
+# Perfect Dark NetPlay with Steam Controller
 A working config for playing emulated N64 Perfect Dark on Kaillera (netplay) with steam controllers on Windows.
 
 1. Download [Mupen64++](http://www.emulator-zone.com/doc.php/n64/mupen64plusplus.html) and extract it somewhere.
