@@ -1,5 +1,8 @@
 # Perfect Dark NetPlay with Steam Controller
-A working config for playing emulated N64 Perfect Dark on Kaillera (netplay) with steam controllers on Windows.
+A working config for playing emulated N64 Perfect Dark on Kaillera (netplay) with steam controllers on Windows.  
+
+This document was created because there were problems with every other set of instructions I found about Perfect Dark netplay. They either had graphics or input bugs, making it unplayable, and I had to 
+figure this out on my own after a long night/morning of trial-and-error.  
 
 1. Download [Mupen64++](http://www.emulator-zone.com/doc.php/n64/mupen64plusplus.html) and extract it somewhere.
 
@@ -31,23 +34,23 @@ A working config for playing emulated N64 Perfect Dark on Kaillera (netplay) wit
 
 14. Open the kaillerasrv.conf file in a text editor. Change the ServerName, Location, Public (set to 0 for LAN-only play), and anything else you want to customize.
 
-15. Open a command prompt or powershell, go to the place where you extracted Kaillera Server, and run the command kaillerasrv.exe
+15. Open a command prompt or powershell, go to the place where you extracted Kaillera Server, and run the command kaillerasrv.exe.
 
 16. In Mupen64++, click Utilities -> KailleraClient (NetPlay).
 
 17. In the Kaillera client window that just opened, click Add. Put a name for your server, and set the IP to localhost:27888, click OK and it will add your server to the bottom of the server list.
 
-18. Enter your desired nickname, quit message, and connection setting (choose LAN if you're playing on LAN, for example)
+18. Enter your desired nickname, quit message, and connection setting (choose LAN if you're playing on LAN, for example).
 
 19. Double-click your server in the list. It should connect and bring you into the server's lobby.
 
 20. Click Create, and choose your Perfect Dark ROM from the menu.
 
-21. At this point it's a good idea to test your setup with a 1 player game running on your Kaillera server, so click Start, and the game should start. Make sure your controller works and the graphics look okay.
+21. At this point it's a good idea to test your setup with a 1-player game running on your Kaillera server, so click Start, and the game should start. Make sure your controller works and the graphics look okay.
 
 22. Exit your game and get some friends to connect to your Kaillera server IP and port (you can get your LAN IP from the Windows Network Adapter settings). If they are connecting to you over the internet, make 
-sure to fill in your public IP address in kaillerasrv.conf IP section, which you can get by Googling the term IP Address. And you'll have to set up port forwarding on your router to forward your Kaillera port 
-to your internal IP of the computer you're running the server on.
+sure to fill in your public IP address in kaillerasrv.conf IP section, which you can get by Googling the term [IP Address](https://www.google.com/search?q=ip+address). And you'll have to set up port forwarding 
+on your router to forward your Kaillera port to your internal IP of the computer you're running the server on.
 
 23. Wait for your friends to join the server lobby, create a Perfect Dark game, get them to join it, then click Start to play.
 
