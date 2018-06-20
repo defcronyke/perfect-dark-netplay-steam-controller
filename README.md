@@ -34,25 +34,27 @@ figure this out on my own after a long night/morning of trial-and-error.
 
 14. Open the kaillerasrv.conf file in a text editor. Change the ServerName, Location, Public (set to 0 for LAN-only play), and anything else you want to customize.
 
-15. Open a command prompt or powershell, go to the place where you extracted Kaillera Server, and run the command kaillerasrv.exe.
+15. Go to Windows Defender settings and disable all the firewalls. Adding exceptions isn't good enough for some reason.
 
-16. In Mupen64++, click Utilities -> KailleraClient (NetPlay).
+16. Open a command prompt or powershell, go to the place where you extracted Kaillera Server, and run the command kaillerasrv.exe.
 
-17. In the Kaillera client window that just opened, click Add. Put a name for your server, and set the IP to localhost:27888, click OK and it will add your server to the bottom of the server list.
+17. In Mupen64++, click Utilities -> KailleraClient (NetPlay).
 
-18. Enter your desired nickname, quit message, and connection setting (choose LAN if you're playing on LAN, for example).
+18. In the Kaillera client window that just opened, click Add. Put a name for your server, and set the IP to localhost:27888, click OK and it will add your server to the bottom of the server list.
 
-19. Double-click your server in the list. It should connect and bring you into the server's lobby.
+19. Enter your desired nickname, quit message, and connection setting (choose LAN if you're playing on LAN, for example).
 
-20. Click Create, and choose your Perfect Dark ROM from the menu.
+20. Double-click your server in the list. It should connect and bring you into the server's lobby.
 
-21. At this point it's a good idea to test your setup with a 1-player game running on your Kaillera server, so click Start, and the game should start. Make sure your controller works and the graphics look okay.
+21. Click Create, and choose your Perfect Dark ROM from the menu.
 
-22. Exit your game and get some friends to connect to your Kaillera server IP and port (you can get your LAN IP from the Windows Network Adapter settings). If they are connecting to you over the internet, make 
+22. At this point it's a good idea to test your setup with a 1-player game running on your Kaillera server, so click Start, and the game should start. Make sure your controller works and the graphics look okay.
+
+23. Exit your game and get some friends to connect to your Kaillera server IP and port (you can get your LAN IP from the Windows Network Adapter settings). If they are connecting to you over the internet, make 
 sure to fill in your public IP address in kaillerasrv.conf IP section, which you can get by Googling the term [IP Address](https://www.google.com/search?q=ip+address). And you'll have to set up port forwarding 
 on your router to forward your Kaillera port to your internal IP of the computer you're running the server on.
 
-23. Wait for your friends to join the server lobby, create a Perfect Dark game, get them to join it, then click Start to play.  
+24. Wait for your friends to join the server lobby, create a Perfect Dark game, get them to join it, then click Start to play.  
   
 That was rough! But it should work now. If you have any issues, make sure all players have exactly the same plugins and settings selected in their Mupen64++. And sometimes you just have to reboot Windows and try again.
 I've also noticed that Mupen64++ sometimes doesn't like to exit cleanly, so if it crashes or you force quit, just make sure your settings are correct next time. They usually get saved, but not always.
