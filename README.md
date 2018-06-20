@@ -52,7 +52,7 @@ figure this out on my own after a long night/morning of trial-and-error.
 sure to fill in your public IP address in kaillerasrv.conf IP section, which you can get by Googling the term [IP Address](https://www.google.com/search?q=ip+address). And you'll have to set up port forwarding 
 on your router to forward your Kaillera port to your internal IP of the computer you're running the server on.
 
-23. Wait for your friends to join the server lobby, create a Perfect Dark game, get them to join it, then click Start to play.
-
-24. That was rough! But it should work now. If you have any issues, make sure all players have exactly the same plugins and settings selected in their Mupen64++. And sometimes you just have to reboot Windows and try again.
+23. Wait for your friends to join the server lobby, create a Perfect Dark game, get them to join it, then click Start to play.  
+  
+That was rough! But it should work now. If you have any issues, make sure all players have exactly the same plugins and settings selected in their Mupen64++. And sometimes you just have to reboot Windows and try again.
 I've also noticed that Mupen64++ sometimes doesn't like to exit cleanly, so if it crashes or you force quit, just make sure your settings are correct next time. They usually get saved, but not always.
