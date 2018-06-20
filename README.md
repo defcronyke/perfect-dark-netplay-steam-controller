@@ -21,8 +21,8 @@ figure this out on my own after a long night/morning of trial-and-error.
 8. Open mupen64pp from your Steam library.
 
 9. Go to Options -> Settings -> Plugins:  
-  For Video Plugin: Jabo's Direct3D6 1.5.2  
-  For Input Plugin: N-Rage;s Direct-Input8 V2 2.2 beta  
+  For Video Plugin, choose: Jabo's Direct3D6 1.5.2  
+  For Input Plugin, choose: N-Rage's Direct-Input8 V2 2.2 beta  
 
 10. Under Video Plugin, click Configure. Set Windowed Resolution to 1280x960 (or your preferred resolution). Click OK to go back.
 
